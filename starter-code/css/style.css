@@ -1,0 +1,57 @@
+.card {
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: yellow;
+	border-radius: 10px;
+	float:left;
+	margin: 8%;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	float: left;
+	display: inline;
+}
+
+h1 {
+	color: rgb(2, 132, 130); 
+}
+
+h2 {
+	color: #ffd700;
+}
+
+h1, h2, h3, footer, p {
+	text-align: center;
+}
+
+footer {
+	color: blue;
+	text-align: center;
+	clear: both;
+}
+
+span {
+	color: #ff0000;
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+a {
+	background-color: #808080;
+	color: white;
+	padding: 35px;
+}
+
+a:hover {
+	background-color: orange;
+}
